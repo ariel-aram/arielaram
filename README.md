@@ -1,37 +1,41 @@
-# BasicAramPython
+# Ariel Aram
 
-Adition = ( + )
+Hello, I am Ariel Aram.
 
-Subtraction = ( - )
+- 18 Years Old Male
 
-Multiplication = ( * )
+- Birthday: 2008-02-19
 
-Division = ( / )
+- Autism and ADHD
 
-**There's more but idk what's else**
+- Kumon Trainee
 
-## Variables omg
+- Basic Python Knowledge
 
-float
+- Founder of Nationdex.bot
 
-int
+- Retired Admin of Scorpceltic Empire
 
-input()
+My Discord username is **arielaram**, and my Signal username is **arielaram.01**. You can join the [Nationdex server](https://discord.gg/tKh3n5uVnm) to play with one of the oldest dex bots in the entire Ballsdex community.
 
-**and the other bla bla bla which my teacher didn't teach me yet**
+The developers at my project are working on a Nationdex TypeScript codebase with compatibility for the Ballsdex database and enhanced dex features. You can find the repository [here](https://github.com/Nationdex-Team/Nationdex.bot).
 
-### Logic is kool, I was the only student who tried to do something with it
+You can also access the official [Nationdex website](https://nationdex.com), as well as my own portfolio [here](https://arielaram.com).
 
-if
+## Curiosities
 
-else
+- I have three kittens, the male is called "Pitico", the female is called "Alicia", and the second male is called "Tumtum".
 
-### Way to go, Windsuus autocompleted this sh*t and I had to fight with it
+- I am a big fan of Sonic the Hedgehog, and I have a cute Cream the Rabbit plushie, which Youssif decided to use for his profile picture.
 
-The ( f ) string is pretty cool, only now I know what it does, and I bouta sue my teacher for not teaching me about it
+- My Discord account is from 2018 and it has been created while I was interacting online with my nephew during a vacation of mine, but I only started using it back in 2022 when I joined the SHN Games server for a beta version of their upcoming game "Countryballs at War (CaW)", and later on, I met my first online friend Gerbica, so I have officially joined the Countryballs community through Discord.
 
-I'M NOT VIBE CODING FFS
+- I used to be so childish that people at SHN Games were sick and tired of me back then, which caused me to be banned from the server, but as the years passed, I have become more mature and I am currently the founder of a dex bot named "Nationdex.bot", which is going to have a open-source TypeScript codebase soon.
 
-### I'm done, bye bye and thank you for the support xD
+- I hate noisy environments so badly, to the point where I even get jumpscared by innocent birds, so I prefer using a ear protector when I leave my soundproof bedroom.
 
-It's already 12:31 AM and I still haven't gone to bed, even after tech college, what a shame I had to make this mess instead of sleeping
+======
+
+### March 20th 2026
+
+**The day we will never forget.**
