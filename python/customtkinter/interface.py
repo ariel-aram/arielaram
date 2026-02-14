@@ -1,6 +1,6 @@
 # Author: Harel Haram
 # Date: 2026-02-14
-# Description: Calculate the terrain through CustomTkinter
+# Description: Calculate the terrain of your silly property through CustomTkinter
 
 # Import the entire bible itself
 import customtkinter  # type: ignore
@@ -17,13 +17,15 @@ rootGUI.resizable(False, False)
 
 # My beloved GUI Whitelabol from TEMU
 labelIntro = customtkinter.CTkLabel(
-    rootGUI, text="Graphic Interface", text_color="green"
+    rootGUI, text="Graphic Interface", text_color="green", font=("Verdana", 15)
 )
 labelIntro.pack(padx=10, pady=10)  # type: ignore
 
 
 # Calculus Terrainus
+# Note: CustomTkinter has its own calculation methods instead of the common Python strategy
 def calc():
+    rootGUI.geometry("620x600")
     try:
         result = int(labelWidth.get()) * int(labelLength.get())
         if result >= 50:
@@ -31,26 +33,27 @@ def calc():
                 rootGUI,
                 text=f"I've calculated!1!1!1! The result is {result}",
                 text_color="green",
+                font=("Verdana", 10),
             )
-            labelResult.pack(padx=10, pady=10)  # type: ignore
+            labelResult.pack(padx=5, pady=5)  # type: ignore
         else:
             labelResult = customtkinter.CTkLabel(
                 rootGUI,
                 text=f"The result is {result}, OMG UR TERRAIN IS SMALL WTF",
                 text_color="yellow",
+                font=("Verdana", 10),
             )
-            labelResult.pack(padx=10, pady=10)  # type: ignore
+            labelResult.pack(padx=5, pady=5)  # type: ignore
         print("Jervis, find out who asked ❗")
     except ValueError:
         labelResult = customtkinter.CTkLabel(
             rootGUI,
             text="Error 003: Too bad mister, you need to suffer, how dare u not input the numbers",
             text_color="red",
+            font=("Verdana", 10),
         )
-        labelResult.pack(padx=10, pady=10)  # type: ignore
+        labelResult.pack(padx=5, pady=5)  # type: ignore
 
-
-# Note: CustomTkinter has its own calculation methods instead of the common Python strategy
 
 # Inputting and entering
 labelWidth = customtkinter.CTkEntry(
@@ -58,12 +61,14 @@ labelWidth = customtkinter.CTkEntry(
     placeholder_text="Terrain Width:",
     corner_radius=30,
     width=300,
+    font=("Verdana", 15),
 )
 labelLength = customtkinter.CTkEntry(
     rootGUI,
     placeholder_text="Terrain Length:",
     corner_radius=30,
     width=300,
+    font=("Verdana", 15),
 )
 labelWidth.pack(padx=10, pady=10)  # type: ignore
 labelLength.pack(padx=10, pady=10)  # type: ignore
@@ -71,11 +76,12 @@ labelLength.pack(padx=10, pady=10)  # type: ignore
 # Do the button
 labelButton = customtkinter.CTkButton(
     rootGUI,
-    text="Confirm input",
+    text="Confirm Input",
     fg_color="green",
     hover=True,
     hover_color="#105000",
     command=calc,
+    font=("Verdana", 15),
 )
 labelButton.pack(padx=10, pady=10)  # type: ignore
 
