@@ -1,7 +1,5 @@
 {
     "[python]": {
-      "analysis.typeCheckingMode": "strict",
-      "analysis.autoImportCompletions": true,
       "editor.codeActionsOnSave": {
         "source.fixAll.ruff": "explicit",
         "source.organizeImports.ruff": "explicit",

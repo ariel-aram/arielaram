@@ -8,26 +8,38 @@ Multiplication = ( * )
 
 Division = ( / )
 
-**There's more but idk what's else**
+Exponent = ( ** )
 
 ## Variables omg
 
-float
+float, int, input(), try:, except:, if, elif, else, f"", \n, for, in, and, range(), list(), tuple(), def, return, from, import
 
-int
+### Organization and renaming of PDF files through OS
 
-input()
+```py
+folder = "src"
 
-**and the other bla bla bla which my teacher didn't teach me yet**
+os.listdir( folder )
 
-### Logic is kool, I was the only student who tried to do something with it
+name, extension = os.path.splitext( file )
 
-if
+new_name = f"mr_spherical_archive{counter:03d}{extension}"
 
-else
+counter = 1
 
-### Way to go, Windsuus autocompleted this sh*t and I had to fight with it
+counter += 1
+```
 
-The ( f ) string is pretty cool, only now I know what it does, and I bouta sue my teacher for not teaching me about it
+### Python video downloader for YouTube
 
-I'M NOT VIBE CODING FFS
+```py
+from pytubefix import YouTube
+
+from pytubefix.cli import on_progress
+
+yt = YouTube(url, on_progress_callback=on_progress)
+
+ys = yt.streams.get_highest_resolution()
+
+ys.download()
+```
