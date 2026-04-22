@@ -14,8 +14,6 @@ Hello, I am Ariel Aram.
 
 - Founder of Nationdex.bot
 
-- Admin of Scorpceltic Empire
-
 My Discord username is **arielaram**, and my Signal username is **arielaram.01**. You can join the [Nationdex server](https://discord.gg/tKh3n5uVnm) to play with one of the oldest dex bots in the entire Ballsdex community.
 
 The developers at my project are working on a Nationdex TypeScript codebase with compatibility for the Ballsdex database and enhanced dex features. You can go ahead and access the [Nationdex repository](https://github.com/Nationdex-Team/Nationdex.bot).
@@ -41,7 +39,3 @@ You can also access the official [Nationdex website](https://nationdex.com), whi
 - Nationdex has one of the vastest cultural histories in the whole dex community, as it has been engulfed in several dramas, but at the same time, it has been one of the oldest and most ambitious dexes in there, with over 2K guilds, something which I find impressive, even for myself, and I truly wish to revive the essence of this dex, through the power of teamwork and friendship.
 
 - The future Nationdex TypeScript codebase, which is going to be deployed and released soon enough, was surprisingly Metr's idea for the reconstruction of Nationdex.bot, but in the end, she has completely changed many of our Discord careers, including even my life, as the codebase development had forced me to get a job and pay certain developers for the survival of Metr's master plan for the Project Nationdex 2026. Therefore, it is important that we actually value Metr for her contribution to the future of the Ballsdex community.
-
-## April 19th 2026
-
-The formidable day.

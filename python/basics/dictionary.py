@@ -3,7 +3,7 @@
 # Description: Check a dictionary for a certain someone.
 
 # Details of the fellow soldier
-soldier = {  # type: ignore
+soldier = {
     "name": "Emperor Scorpion",
     "age": 17,
     "salary": 17500.0,
@@ -25,12 +25,14 @@ agenda = {
 print(
     f"SCORP! Celtic! Empire, EMPIRE! {soldier['name']}!",
     f"{soldier['job']} of the scorpions! Marching straight to power! STONKS, STONKS!",
-    f"Expand and conquer! Never surrender! Our leader is {soldier['age']} years old, at the Scorpceltic Empire!",
-    f"His salary is {soldier['salary']} BRL! The salary by scorpions! Vast and mighty STONKS, STONKS!\n",
+    f"Expand and conquer! Never surrender! Our leader is {soldier['age']} y.o., at the "
+    "Scorpceltic Empire!",
+    f"His salary is {soldier['salary']} BRL! The salary by scorpions! Vast and mighty STONKS, "
+    "STONKS!\n",
     "======\n",
     f"Welcome to the Shopceltic, we have a stock of {stock}",
     f"and the total rating of {rating}",
-)  # type: ignore
+)
 
 login = input("User: ")
 

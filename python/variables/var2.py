@@ -3,17 +3,17 @@
 # Description: Convert Celsius to Fahrenheit and Kelvin
 
 celsius = int(input("Input the temperature of ur booze: "))
-fahrenheitDivision = 9 / 5
-kelvinAddition = 273.15
-fahrenheitAdition = 32
+fahrenheitdivision = 9 / 5
+kelvinaddition = 273.15
+fahrenheitaddition = 32
 
-fahrenheit = celsius * fahrenheitDivision + fahrenheitAdition
-kelvin = celsius + kelvinAddition
+fahrenheit = celsius * fahrenheitdivision + fahrenheitaddition
+kelvin = celsius + kelvinaddition
 
 print(
-    "The temperature of your booze is",
+    "The temperature of your booze is ",
     fahrenheit,
-    "°F and",
+    "F° and ",
     kelvin,
     "K. Enjoy your boozing day with ur homies like the lame ahh booze you are.",
 )

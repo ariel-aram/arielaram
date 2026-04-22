@@ -7,18 +7,18 @@
 for num in range(3, 13):
     print(num)
 
-print("===")
+print("======")
 
 for i in range(1, 6):
     print("$" * i)
 
-print("===")
+print("======")
 
 name = "arielaram"
 for i in name:
     print(i)
 
-print("===")
+print("======")
 
 addition = 0
 subtraction = 0
@@ -26,10 +26,11 @@ for i in range(1, 6):
     addition = addition + i
     subtraction = subtraction - i
     print(
-        f"The result of the addition is {addition}, while the result of the subtraction is {subtraction}"
+        f"The result of the addition is {addition}\n"
+        f"While the result of the subtraction is {subtraction}"
     )
 
-print("===")
+print("======")
 
 team = ["Ariel", "Metro", "Aditya", "Bloxy", "Ahmed", "Lore", "Scorpion"]
 print(team)

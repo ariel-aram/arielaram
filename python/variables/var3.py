@@ -2,24 +2,33 @@
 # Date: 2026-02-07
 # Description: Calculate gas pricing
 
-gasPrice = 1.50
-ethanolPrice = 1.20
-division = ethanolPrice / gasPrice
+gas_price = 1.50
+ethanol_price = 1.20
+division = ethanol_price / gas_price
 currency = "USD"
 
-soberanoBolivar = 381.68
+soberano_bolivar = 381.68
 bolivar = "VES"
 
-conversionGAS = soberanoBolivar * gasPrice
-conversionETH = soberanoBolivar * ethanolPrice
+conversion_gas = soberano_bolivar * gas_price
+conversion_eth = soberano_bolivar * ethanol_price
 
-# The f variable was not learned in the course, but I found it thanks to Windsuus autocompletion feature
-# I'M NOT VIBE CODING, YOU PUNKS
 print(
-    f"The price of the oil that you pump for money in the middle east and turn into a rich boi: {gasPrice} {currency}"
+    "The price of the oil that you pump for money in the middle east and turn into a rich boi: ",
+    gas_price,
+    currency,
 )
-print(f"As well as the price of your silly ethanol: {ethanolPrice} {currency}")
 print(
-    f"Conversion to the most unvalued currency in the whole observable universe: Gas {conversionGAS} {bolivar} | Ethanol {conversionETH} {bolivar}"
+    "As well as the price of your silly ethanol: ",
+    ethanol_price,
+    currency,
+)
+print(
+    "Conversion to the most unvalued currency in the whole observable universe: Gas ",
+    conversion_gas,
+    bolivar,
+    " | Ethanol ",
+    conversion_eth,
+    bolivar,
 )
 print("Your money is worth nothing.")

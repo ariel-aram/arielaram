@@ -1,8 +1,37 @@
 {
-    "[python]": {
-      "editor.codeActionsOnSave": {
-        "source.fixAll.ruff": "explicit",
-        "source.organizeImports.ruff": "explicit",
-      }
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4
+  },
+  "ruff.enable": true,
+  "ruff.configuration": {
+    "line-length": 100,
+    "lint": {
+      "select": [
+        "C", // Complexity rules
+        "E", // Error checking
+        "F", // Bug-prone code
+        "I", // Unused imports
+        "W", // Warning messages
+        "PL", // Poor Man's Complexity
+        "B", // Bug-related checks
+        "UP", // Pyupgrade
+        "N", // PEP8 Naming
+        "ANN", // Type Annotations
+        "RUF", // Ruff-specific
+        "SIM", // Simplify
+        "TID", // Tidy Imports
+        "ARG", // Unused Arguments
+        "PTH", // Use Pathlib
+        "TD", // TODOs
+        "FIX", // FIXMEs
+        "ERA" // Eradicate commented-out code
+      ]
     }
+  }
 }

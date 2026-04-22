@@ -1,2 +1,4 @@
-# Just exclude the virtual environment, nothing else
+# Created by venv; see https://docs.python.org/3/library/venv.html
 .venv
+venv
+__pycache__

@@ -3,24 +3,24 @@
 # Description: Calculate the entire world.
 
 # Assemble all functionalities
-def triforce(base, height):  # type: ignore
-    return (base * height) / 2  # type: ignore
+def triforce(base: float, height: float) -> float:
+    return (base * height) / 2
 
 
-def kelvin(celsius):  # type: ignore
-    return celsius + 273.15  # type: ignore
+def kelvin(celsius: float) -> float:
+    return celsius + 273.15
 
 
-def fahrenheit(celsius):  # type: ignore
-    return celsius * 1.8 + 32  # type: ignore
+def fahrenheit(celsius: float) -> float:
+    return celsius * 1.8 + 32
 
 
-def conversion(cash):  # type: ignore
-    return cash / 5.13  # type: ignore
+def conversion(cash: float) -> float:
+    return cash / 4.9535
 
 
-def gaseta(gas, eta):  # type: ignore
-    return eta / gas  # type: ignore
+def gas_prices(gas: float, eta: float) -> float:
+    return eta / gas
 
 
 b = float(input("Input the base number of your force: "))
@@ -35,15 +35,20 @@ g = float(
 )
 e = float(input("Now what's the eta pricing mister: "))
 print("======\n")
-if m >= 5:
+MIN_BEER_MONEY = 5
+
+if m >= MIN_BEER_MONEY:
     print(
         f"The triforce area is {triforce(b, h)}, so FEEL THE WRATH OF NAPOLEON, PUNKS!1!1!1!",
         f"The temperature of y'all's booze is over {kelvin(w)}K and {fahrenheit(w)}°F.",
-        f"Your money is worth {conversion(m)} USD, and it is plummeting as we speak, make america greta agann RAAAAAAAAAAH.",
-        f"The gas prices are over ${gaseta(g, e)} a gallon, too bad mister how dare u drink alcohol.",
+        f"Your money is worth {conversion(m)} USD, and it is plummeting as we speak, make "
+        "america greta agann RAAAAAAAAAAH.",
+        f"The gas prices are over ${gas_prices(g, e)} a gallon, too bad mister how dare u drink "
+        "alcohol.",
     )
 else:
     print(
-        f"MUAHHAHAHAHAHAHAHAHAHAHJSGFGJDSGJGG U HAVE ONLY {conversion(m)} USD ON UR BANK ACCOUNT LMFAOOOOOOOOO",
+        f"MUAHHAHAHAHAHAHAHAHAHAHJSGFGJDSGJGG U HAVE ONLY {conversion(m)} USD ON UR BANK "
+        "ACCOUNT LMFAOOOOOOOOO",
         "bro can't even get drunk lmfao get lost",
     )

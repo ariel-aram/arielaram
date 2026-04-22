@@ -8,7 +8,7 @@ pounds = dollars * gbpusd
 currency = "GBP"
 
 print(
-    "You have",
+    "You have ",
     pounds,
     currency,
     "in ur bank account omg ur so rich gib me all ur money now!1!1!1!1!",

@@ -4,12 +4,12 @@
 
 # Import the whole declaration of independence from the corporatov hellholl
 # Example: `from discord import ballsdex`
-from pytubefix import YouTube  # type: ignore
-from pytubefix.cli import on_progress  # type: ignore
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
 
 url = input("Input the URL of ur brainrot: ")
 yt = YouTube(url, on_progress_callback=on_progress)
-ys = yt.streams.get_highest_resolution()  # type: ignore
+ys = yt.streams.get_highest_resolution()
 
 print("Downloading vido!1!1!1!")
 ys.download()  # type: ignore

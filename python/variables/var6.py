@@ -26,7 +26,10 @@ for i in range(1, 6):
     addition = addition + i
     subtraction = subtraction - i
     print(
-        f"The result of the addition is {addition}, while the result of the subtraction is {subtraction}"
+        "The result of the addition is ",
+        addition,
+        ", while the result of the subtraction is ",
+        subtraction,
     )
 
 print("======")
