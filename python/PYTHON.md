@@ -1,4 +1,4 @@
-# Ariel Aram's Python Skills
+# Ariel Aram's Python Catalog
 
 Adition = ( + )
 
@@ -19,14 +19,12 @@ float, int, input(), try:, except:, if, elif, else, f"", \n, for, in, and, range
 ```py
 folder = "src"
 
-os.listdir( folder )
-
-name, extension = os.path.splitext( file )
+os.listdir(folder)
+name, extension = os.path.splitext(file)
 
 new_name = f"mr_spherical_archive{counter:03d}{extension}"
 
 counter = 1
-
 counter += 1
 ```
 
@@ -34,11 +32,9 @@ counter += 1
 
 ```py
 from pytubefix import YouTube
-
 from pytubefix.cli import on_progress
 
 yt = YouTube(url, on_progress_callback=on_progress)
-
 ys = yt.streams.get_highest_resolution()
 
 ys.download()
