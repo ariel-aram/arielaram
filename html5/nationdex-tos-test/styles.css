@@ -1,0 +1,75 @@
+.square {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.square1 {
+    left: 0px;
+    top: 0px;
+}
+
+.square2 {
+    right: 0px;
+    bottom: 0px;
+    background-color: crimson;
+}
+
+.square3 {
+    left: 0px;
+    bottom: 0px;
+    background-color: cyan;
+}
+
+.square4 {
+    right: 0px;
+    top: 0px;
+    background-color: chartreuse;
+}
+
+.image {
+    background: url("stonks.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+
+.image:hover {
+    background-position: 0px 50px;
+}
+
+.image:active {
+    background: url("notstonks.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position: 0px -20px;
+}
+
+.alternating {
+    list-style: upper-alpha;
+    font-size: 30px;
+    color: brown;
+    width: fit-content;
+}
+
+.alternating li:nth-child(odd) {
+    background-color: beige;
+}
+
+.alternating li:nth-child(even) {
+    background-color: coral;
+}
+
+.alternating li:hover {
+    font-weight: bolder;
+}
+
+.problemo {
+    background: red;
+    color: beige;
+}
