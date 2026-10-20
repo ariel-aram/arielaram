@@ -1,0 +1,4 @@
+Player: Ariel Aram | Score: 400 | Word: gadzooks
+Player: Ariel | Score: 500 | Word: spelunker
+Player: Ariel | Score: 700 | Word: flummox
+Player: Ariel | Score: 400 | Word: pollywog
